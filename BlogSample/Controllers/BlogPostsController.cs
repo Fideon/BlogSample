@@ -10,6 +10,7 @@ using BlogSample.Models;
 
 namespace BlogSample.Controllers
 {
+    [Produces("application/json")]
     [Route("api/[controller]")]
     [ApiController]
     public class BlogPostsController : ControllerBase
